@@ -1,21 +1,21 @@
 .home-container {
-  background: url("/home.jpg") no-repeat center center/cover;
+  background: url("/public/home.jpg") no-repeat center center/cover;
 }
 
 .test-container {
-  background: url("/test.jpg") no-repeat center center/cover;
+  background: url("/public/test.jpg") no-repeat center center/cover;
 }
 
 .galeria-container {
-  background: url("/galeria.jpg") no-repeat center center/cover;
+  background: url("/public/galeria.jpg") no-repeat center center/cover;
 }
 
 .foro-container {
-  background: url("/foro.jpg") no-repeat center center/cover;
+  background: url("/public/foro.jpg") no-repeat center center/cover;
 }
 
 .recursos-container {
-  background: url("/recursos.jpg") no-repeat center center/cover;
+  background: url("/public/recursos.jpg") no-repeat center center/cover;
 }
 
 .page-container {
