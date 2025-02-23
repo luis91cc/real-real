@@ -1,0 +1,83 @@
+.home-container {
+  background: url("/home.jpg") no-repeat center center/cover;
+}
+
+.test-container {
+  background: url("/test.jpg") no-repeat center center/cover;
+}
+
+.galeria-container {
+  background: url("/galeria.jpg") no-repeat center center/cover;
+}
+
+.foro-container {
+  background: url("/foro.jpg") no-repeat center center/cover;
+}
+
+.recursos-container {
+  background: url("/recursos.jpg") no-repeat center center/cover;
+}
+
+.page-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.page-container h1, 
+.page-container p {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 80%;
+}
+
+nav {
+  background-color: #007bff;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
