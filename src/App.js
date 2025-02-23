@@ -6,7 +6,7 @@ import TestAutoestima from "./pages/TestAutoestima";
 import Galeria from "./pages/Galeria";
 import Foro from "./pages/Foro";
 import Recursos from "./pages/Recursos";
-import "./styles.css";
+import "./pages/styles.css";
 
 function App() {
   return (
